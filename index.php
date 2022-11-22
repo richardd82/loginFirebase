@@ -31,8 +31,7 @@
   <div class="d-flex align-items-center justify-content-center bg-br-primary ht-100v">
 
     <div class="login-wrapper wd-300 wd-xs-350 pd-25 pd-xs-40 bg-white rounded shadow-base">
-      <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal">[</span> Acceso <span
-          class="tx-normal">]</span></div>
+      <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal">[</span> Acceso <span class="tx-normal">]</span></div>
       <div class="tx-center mg-b-60">Ingrese usuario y contraseña</div>
 
       <div class="alert alert-danger" role="alert" id="lblmensaje">
@@ -56,7 +55,7 @@
       <button type="button" class="btn btn-info btn-block" id="btnlogin">Iniciar Sesion</button>
 
       <br>
-      
+
       <a href="#" class="btn btn-primary btn-block btn-with-icon" id="btnloginf">
         <div class="ht-40">
           <span class="icon wd-40"><i class="fa fa-facebook"></i></span>
@@ -75,7 +74,7 @@
           <span class="pd-x-15">Login with Github</span>
         </div>
       </a>
-     
+
 
       <div class="mg-t-60 tx-center">¿Todavía no esta registrado? <a href="register.php" class="tx-info">Registrarse</a></div>
     </div>
@@ -85,11 +84,11 @@
   <script src="public/lib/popperjs/popper.js"></script>
   <script src="public/lib/bootstrap/bootstrap.js"></script>
 
-  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script> -->
 
-  <script src="index.js"></script>
+  <script src="./index.js"></script>
 </body>
 
 </html>
